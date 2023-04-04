@@ -17,7 +17,7 @@ Before initiating a machine learning project, it is crucial to define the metric
  
 - Perform Exploratory Data Analysis (EDA) to gain insights into the data and identify potential relationships between variables.
 
- . The first step in our action plan is to conduct Exploratory Data Analysis (EDA). This process involves gaining insights into the relationships between the features and the target variable. During this stage, we will create various charts and visualizations to better understand these relationships. Additionally, we will perform statistical tests to deepen our understanding of the associations between the variables. The insights gained from this stage will be invaluable for informing our decisions during the subsequent model building phase.
+ -- The first step in our action plan is to conduct Exploratory Data Analysis (EDA). This process involves gaining insights into the relationships between the features and the target variable. During this stage, we will create various charts and visualizations to better understand these relationships. Additionally, we will perform statistical tests to deepen our understanding of the associations between the variables. The insights gained from this stage will be invaluable for informing our decisions during the subsequent model building phase.
   
 - Develop and evaluate a baseline linear model as a starting point for comparison with more advanced models.
  . 
