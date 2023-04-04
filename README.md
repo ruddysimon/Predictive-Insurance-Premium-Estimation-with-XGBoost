@@ -15,13 +15,16 @@ Before initiating a machine learning project, it is crucial to define the metric
  
  **Action Plan** 
  
-1-Perform Exploratory Data Analysis (EDA) to gain insights into the data and identify potential relationships between variables.
+1 - Perform Exploratory Data Analysis (EDA) to gain insights into the data and identify potential relationships between variables.
 - The first step in our action plan is to conduct Exploratory Data Analysis (EDA). This process involves gaining insights into the relationships between the features and the target variable. During this stage, we will create various charts and visualizations to better understand these relationships. Additionally, we will perform statistical tests to deepen our understanding of the associations between the variables. The insights gained from this stage will be invaluable for informing our decisions during the subsequent model building phase.
   
-- Develop and evaluate a baseline linear model as a starting point for comparison with more advanced models.
- . 
-- Improve upon the baseline linear model by incorporating feature engineering, hyperparameter tuning, and experimenting with different algorithms.
-- Present the results and model performance statistics to non-technical stakeholders in an easily comprehensible manner.
+2 - Develop and evaluate a baseline linear model as a starting point for comparison with more advanced models.
+- After completing the EDA stage, we will proceed to build and evaluate a baseline linear model. This model will be a simple regression model that serves as a starting point for our analysis. Following the establishment of this baseline, we will move on to the data preprocessing stage, which is a crucial step in any machine learning and model training process. Data preprocessing ensures that the data is properly formatted, cleaned, and transformed, making it suitable for input into our machine learning model.
+
+3 - Improve upon the baseline linear model by incorporating feature engineering, hyperparameter tuning, and experimenting with different algorithms.
+- Once we have established our baseline linear model, we will work on improving it by employing a more sophisticated algorithm called XGBoost. After that, we will revisit the data preprocessing step, applying the same processes as we did for the linear model to ensure the data is ready for the XGBoost model. To optimize the model training process, we will utilize a feature from Scikit-learn, a popular Python machine learning library. This feature, known as Pipeline, enables us to streamline the training process and obtain the best possible model. With our XGBoost model trained, we will then evaluate its performance and compare it to the baseline linear model. This comparison will provide insights into the effectiveness of the XGBoost model and its potential improvements over the simpler linear regression approach.
+
+4 - Present the results and model performance statistics to non-technical stakeholders in an easily comprehensible manner.
     
     
   
